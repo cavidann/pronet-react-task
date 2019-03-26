@@ -1,0 +1,39 @@
+.statistic-outer{
+    width: 45px;
+    height: 45px;
+    background: #eaedf1;
+}
+
+.statistic-outer .statistic-inner{
+    width: 100%;
+    background: #2ecc71;
+}
+
+.gained-exp h2{
+    font-size: 16px;
+    color: rgb(127, 140, 141);
+    margin: 0px;
+    margin-bottom: 22px;
+    line-height: 8px;
+}
+
+.gained-exp p{
+    font-size: 10px;
+    color: rgb(158, 167, 179);
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+
+.month{
+    font-size: 34px;
+    color: rgb(46, 204, 113);
+    font-weight: bold;   
+}
+
+.gained-exp>div>div:last-child p{
+    margin-top: 0px;
+}
+
+.j-s-between>div>div{
+    margin: 0 auto;
+}

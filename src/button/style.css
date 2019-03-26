@@ -1,0 +1,60 @@
+button{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    background: 0px;
+    border: 1px solid #ced2d8;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0px 6px;
+}
+
+button:focus{
+    outline: none;
+}
+
+button p{
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background: #2c3e50;
+    color: white;
+    border-radius: 3px; 
+    padding: 6px 10px;
+    font-size: 12px!important;
+    white-space: nowrap;
+    opacity: 0!important;
+    transition: .2s ease-in-out;
+}
+
+button p:after{
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #2c3e50;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+button:hover p{
+    opacity: 1!important;
+}
+
+button img{
+    width: 20px!important;
+    text-align: center;
+    line-height: 40px;
+}
+
+button:nth-child(2){
+    background: #2ecc71;
+    border: 0px;
+}

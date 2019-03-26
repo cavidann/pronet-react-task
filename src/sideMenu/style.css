@@ -1,0 +1,47 @@
+.side-menu{
+    width: 200px;
+    background: #34495e;
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0px;
+}
+
+.person{
+    padding: 24px 17px;
+    background: #2ecc71;
+}
+
+.person .img-outer{
+    margin-right: 12px;
+    width: 48px;
+}
+
+.person p{
+    color: rgb(255, 255, 255);
+}
+
+.menu li{
+    margin-top: 20px;
+    transition: .2s ease-in-out;
+}
+
+.menu li a{
+    padding: 13px;
+    padding-left: 29px;
+}
+
+.menu li .active, .menu li:hover{
+    background: #243342;
+    color: rgb(255, 255, 255);
+}
+
+.menu .img-outer{
+    width: 25px;
+    color: #88999c;
+    padding-right: 23px;
+}
+
+.menu ul{
+    width: 100%;
+}

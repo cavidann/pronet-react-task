@@ -1,0 +1,26 @@
+.page-menu{
+    background: white;
+    padding-top: 20px;
+}
+
+.page-menu .active, .page-menu li a:hover{
+    border-bottom: 5px solid #27ae60;
+}
+
+.page-menu ul {
+    margin: 0px;
+}
+
+.page-menu li{
+    margin-right: 45px;
+}
+
+.page-menu li a{
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: rgb(44, 62, 80);
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    border-bottom: 5px solid transparent;
+}
+  
